@@ -4,6 +4,9 @@ $nome_aluno = $_POST['nome'];
 $disciplina = $_POST['disciplina'];
 $nota1 = $_POST['nota1'];
 $nota2 = $_POST['nota2'];
+
+$nota1 = (double)$nota1;
+$nota2 = (double)$nota2;
 //Inserir registro de aluno e notas
 
 $servername = "localhost";
